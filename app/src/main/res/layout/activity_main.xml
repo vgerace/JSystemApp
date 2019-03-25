@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+            android:text="User"
+            android:layout_width="279dp"
+            android:layout_height="63dp" tools:layout_editor_absoluteY="360dp"
+            tools:layout_editor_absoluteX="26dp" android:id="@+id/UserLogin" android:textSize="30sp"/>
+    <EditText
+            android:layout_width="289dp"
+            android:layout_height="60dp"
+            android:inputType="textPersonName"
+            android:text="Password"
+            android:ems="10"
+            tools:layout_editor_absoluteY="454dp" tools:layout_editor_absoluteX="26dp" android:id="@+id/UserPassword"
+            android:textSize="30sp"/>
+    <Button
+            android:text="Login"
+            android:layout_width="229dp"
+            android:layout_height="106dp" tools:layout_editor_absoluteY="546dp"
+            tools:layout_editor_absoluteX="41dp" android:id="@+id/BtnLogin" android:textSize="30sp"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="276dp" app:srcCompat="@drawable/jegues" tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp" android:id="@+id/ImgJegues"/>
+    <TextView
+            android:text="Bem vindo! Faça seu login."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="283dp"
+            tools:layout_editor_absoluteX="26dp" android:id="@+id/UserMsg" android:textSize="30sp"/>
+
+</android.support.constraint.ConstraintLayout>
